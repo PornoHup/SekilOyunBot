@@ -77,8 +77,8 @@ const OyunYaratHusnuEhedov = chatId => {
 
 
 const ozelMesaj = isGroup => Degisken(`
-    🤖Salam Mənim adım [K.M Səkil Oyun Botu](http://t.me/NezrinTagRobot) \nŞəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.
-    ${isGroup ? "" : "\n[K.M Səkil Oyun Botunan](http://t.me/NezrinTagRobot) Əyləncəli vaxd keçirmək üçün aşağıdakı qrupa əlavə ed Buttona Toxunaraq qrupunuza əlavə edin.\n\n🤖Ətrafli Məlumat üçün /help əmrinə toxunun."}
+    💞Salam Mənim adım [N A Z R Y N Səkil Oyun Botu](http://t.me/NezrinGameRobot) \nŞəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.
+    ${isGroup ? "" : "\n[N A Z R Y N Səkil Oyun Botunan](http://t.me/NezrinGameRobot) Əyləncəli vaxd keçirmək üçün aşağıdakı qrupa əlavə ed Buttona Toxunaraq qrupunuza əlavə edin.\n\n🤖Ətrafli Məlumat üçün /help əmrinə toxunun."}
 `)
 
 const YasOyunBaslat = () => {  // OYUN RESİM ALMASI GEREK DOSYA KONUM 
@@ -399,7 +399,7 @@ ${(top).sort((a, b) => b.score - a.score).slice(0, 20).map((member, index) => `$
 
 bot.command("help", (ctx) => {
     return ctx.replyWithMarkdown(Degisken(`
-        🤖[K.M Sekil Oyun Botunun](http://t.me/KMSekilOyunBot) Kömək Əmrlər Bunlardır.⤵️\n\nℹ️Qayda budur: Mən sizə şəkillər göndərirəm və siz kateqoriyaya uyğun rəqəmlərlə təxmin etməlisiniz.\nİlk olaraq qrupa əlavə edin və qrupda media izinizin olmasını unutmayın! və ya botu administrator edin.\nSonra Commands ilə oyuna başlayın.\n\n📚Əmrlərin siyahısı⤵️\n🌆 /game - Oyuna başlayın\n📛 /stop - oyunu dayandırın \n📊 /gbal - Oyunçuların xallarını göstərir. \n🌍 /global - Qlobal Ballar. \nℹ️ /help - Müəlumat üçün. \n👤 /info - İstifadəçi haqqında məlumat. \n🆔 /id - Qrup idsi haqqında məlumat.`))
+        💞[N A Z R Y N Sekil Oyun Botunun](http://t.me/NezrinGameRobot) Kömək Əmrlər Bunlardır.⤵️\n\nℹ️Qayda budur: Mən sizə şəkillər göndərirəm və siz kateqoriyaya uyğun rəqəmlərlə təxmin etməlisiniz.\nİlk olaraq qrupa əlavə edin və qrupda media izinizin olmasını unutmayın! və ya botu administrator edin.\nSonra Commands ilə oyuna başlayın.\n\n📚Əmrlərin siyahısı⤵️\n🌆 /game - Oyuna başlayın\n📛 /stop - oyunu dayandırın \n📊 /gbal - Oyunçuların xallarını göstərir. \n🌍 /global - Qlobal Ballar. \nℹ️ /help - Müəlumat üçün. \n👤 /info - İstifadəçi haqqında məlumat. \n🆔 /id - Qrup idsi haqqında məlumat.`))
 })
 
 bot.command("info", async (ctx) => {
@@ -428,8 +428,8 @@ bot.start(async (ctx) => {
         reply_markup:{
             inline_keyboard:[
                 [{text:'➕ Botu Qrupa əlavə edin ➕', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📺', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 📣', url:`https://t.me/nezrinbot`}],
-		     [{text:'♕︎K.M famly♕︎', callback_data:'vip'},{text:'K.M Bots 📺', url:`https://t.me/nezrinlogo`}]
+                [{text:'Rəsmi Kanalımız 🇦🇿', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz🇦🇿🌱', url:`https://t.me/nezrinbot`}],
+		     [{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', callback_data:'vip'},{text:'N A Z R Y N 𝐓Σ𝐒𝐋𝐀 💞', url:`https://t.me/nezrinbot`}]
             ]
         }
     })
@@ -437,13 +437,13 @@ bot.start(async (ctx) => {
 
 bot.action('start', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`🤖 Salam Mənim adım [K.M Səkil Oyun Botu](http://t.me/NezrinTagRobot), Şəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.\n\n🤖 Ətrafli Məlumat üçün /help əmrinə toxunun.
+    ctx.replyWithMarkdown(`🤖 Salam Mənim adım [N A Z R Y N Səkil Oyun Botu](http://t.me/NezrinGameRobot), Şəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.\n\n🤖 Ətrafli Məlumat üçün /help əmrinə toxunun.
         `,{
         reply_markup:{
             inline_keyboard:[
                 [{text:'➕ Botu Qrupa əlavə edin ➕', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📺', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 📣', url:`https://t.me/nezrinbot`}],
-		    [{text:'♕︎K.M FAMİLY♕︎', callback_data:'vip'},{text:'K.M Bots 📺', url:`https://t.me/nezrinlogo`}]
+                [{text:'Rəsmi Kanalımız 🇦🇿', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 🇦🇿', url:`https://t.me/nezrinbot`}],
+		    [{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', callback_data:'vip'},{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', url:`https://t.me/nezrinbot`}]
             ]
         }
     })
@@ -453,12 +453,12 @@ bot.action('start', ctx=>{
 
 bot.action('vip', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`*♕︎Köhnə Məkan Family♕︎*`,{
+    ctx.replyWithMarkdown(`*N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'♕︎ Sahiblar', callback_data:'AZ'}],
-                [{text:'📣 Qruplar', callback_data:'TR'}],
-		[{text:'📺 Kanallar', callback_data:'UK'}],
+                [{text:'🇦🇿 Sahiblar', callback_data:'AZ'}],
+                [{text:'💞 Qruplar', callback_data:'TR'}],
+		[{text:'🇦🇿 Kanallar', callback_data:'UK'}],
                 [{text:'🔙 Geri', callback_data:'start'}]
             ]
         }
@@ -471,9 +471,9 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*♕︎Bot Sahibləri♕︎*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Tural ', url:'t.me/hmnevar'}],
-                [{text:'2) Riyad♕︎ ', url:'t.me/Thagiyev'}],
-		[{text:'3) Riyadr♕︎ ', url:'t.me/thaguyevss'}],    
+                [{text:'1) 𝐓𝐮𝐫𝐚𝐥 ', url:'t.me/hmnevar'}],
+                [{text:'2) Ｒｉｙａｄ ', url:'t.me/Thagiyev'}],
+		[{text:'3) Ｒｉｙａｄ ', url:'t.me/thagiyevss'}],    
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -488,9 +488,9 @@ bot.action('TR', ctx=>{
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Əli & Qrup📣', url:'https://t.me/nezrinbot'}],
-                [{text:'2) Aysu & Qrup📣', url:'t.me/nezrinlogo'}],
-		[{text:'3) Ali & Qrup📣 ', url:'t.me/TuralBlogg'}],   
+                [{text:'1) 𝐓𝐮𝐫𝐚𝐥 & Qrup🇬🇪', url:'https://t.me/nezrinbot'}],  
+                [{text:'2) Ｒｉｙａｄ & Qrup🇬🇪', url:'t.me/nezrinlogo'}],
+		[{text:'3) 𝐓𝐮𝐫𝐚𝐥 & Blogg📣 ', url:'t.me/TuralBlogg'}],   
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -500,12 +500,12 @@ bot.action('TR', ctx=>{
 // AZƏRBAYCAN GRUP DÜYMƏLƏRİ
 bot.action('UK', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`*Kanallar 📺*`,{
+    ctx.replyWithMarkdown(`*Kanallar 💞*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Əli & Kanal📺 ', url:'https://t.me/riyaddblogg'}],
-                [{text:'2) Aysu & kanal📺 ', url:'https://t.me/TuralBlogg'}],
-		[{text:'3) Ali & kanal📺  ', url:'https://t.me/nezrinbot'}],    
+                [{text:'1) Ｒｉｙａｄ & Kanal🇬🇪 ', url:'https://t.me/riyaddblogg'}],
+                [{text:'2) 𝐓𝐮𝐫𝐚𝐥 & kanal🇦🇿 ', url:'https://t.me/TuralBlogg'}],
+		[{text:'3) 𝐓𝐮𝐫𝐚𝐥 & 𝐅𝐚𝐦𝐢𝐥𝐲🇦🇿  ', url:'https://t.me/nezrinbot'}],    
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
