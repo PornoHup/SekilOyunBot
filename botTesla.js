@@ -77,8 +77,8 @@ const OyunYaratHusnuEhedov = chatId => {
 
 
 const ozelMesaj = isGroup => Degisken(`
-    🤖Salam Mənim adım [K.M Səkil Oyun Botu](http://t.me/KMSekilOyunBot) \nŞəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.
-    ${isGroup ? "" : "\n[K.M Səkil Oyun Botunan](http://t.me/KMSekilOyunBot) Əyləncəli vaxd keçirmək üçün aşağıdakı qrupa əlavə ed Buttona Toxunaraq qrupunuza əlavə edin.\n\n🤖Ətrafli Məlumat üçün /help əmrinə toxunun."}
+    🤖Salam Mənim adım [K.M Səkil Oyun Botu](http://t.me/NezrinTagRobot) \nŞəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.
+    ${isGroup ? "" : "\n[K.M Səkil Oyun Botunan](http://t.me/NezrinTagRobot) Əyləncəli vaxd keçirmək üçün aşağıdakı qrupa əlavə ed Buttona Toxunaraq qrupunuza əlavə edin.\n\n🤖Ətrafli Məlumat üçün /help əmrinə toxunun."}
 `)
 
 const YasOyunBaslat = () => {  // OYUN RESİM ALMASI GEREK DOSYA KONUM 
@@ -428,8 +428,8 @@ bot.start(async (ctx) => {
         reply_markup:{
             inline_keyboard:[
                 [{text:'➕ Botu Qrupa əlavə edin ➕', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📺', url:`https://t.me/kohne_mekan_kanal`},{text:'Rəsmi Qrupumuz 📣', url:`https://t.me/kohne_mekan`}],
-		     [{text:'♕︎K.M FAMİLY♕︎', callback_data:'vip'},{text:'K.M Bots 📺', url:`https://t.me/KMBots`}]
+                [{text:'Rəsmi Kanalımız 📺', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 📣', url:`https://t.me/nezrinbot`}],
+		     [{text:'♕︎K.M famly♕︎', callback_data:'vip'},{text:'K.M Bots 📺', url:`https://t.me/nezrinlogo`}]
             ]
         }
     })
@@ -437,13 +437,13 @@ bot.start(async (ctx) => {
 
 bot.action('start', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`🤖 Salam Mənim adım [K.M Səkil Oyun Botu](http://t.me/KMSekilOyunBot), Şəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.\n\n🤖 Ətrafli Məlumat üçün /help əmrinə toxunun.
+    ctx.replyWithMarkdown(`🤖 Salam Mənim adım [K.M Səkil Oyun Botu](http://t.me/NezrinTagRobot), Şəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.\n\n🤖 Ətrafli Məlumat üçün /help əmrinə toxunun.
         `,{
         reply_markup:{
             inline_keyboard:[
                 [{text:'➕ Botu Qrupa əlavə edin ➕', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📺', url:`https://t.me/kohne_mekan_kanal`},{text:'Rəsmi Qrupumuz 📣', url:`https://t.me/kohne_mekan`}],
-		    [{text:'♕︎K.M FAMİLY♕︎', callback_data:'vip'},{text:'K.M Bots 📺', url:`https://t.me/KMBots`}]
+                [{text:'Rəsmi Kanalımız 📺', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 📣', url:`https://t.me/nezrinbot`}],
+		    [{text:'♕︎K.M FAMİLY♕︎', callback_data:'vip'},{text:'K.M Bots 📺', url:`https://t.me/nezrinlogo`}]
             ]
         }
     })
@@ -471,9 +471,9 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*♕︎Bot Sahibləri♕︎*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Əli♕︎ ', url:'t.me/Leytenant_85'}],
-                [{text:'2) Aysu♕︎ ', url:'t.me/Alhi_sunnna'}],
-		[{text:'3) Ali♕︎ ', url:'t.me/MUCVE_M'}],    
+                [{text:'1) Tural ', url:'t.me/hmnevar'}],
+                [{text:'2) Riyad♕︎ ', url:'t.me/Thagiyev'}],
+		[{text:'3) Riyadr♕︎ ', url:'t.me/thaguyevss'}],    
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -488,9 +488,9 @@ bot.action('TR', ctx=>{
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Əli & Qrup📣', url:'https://t.me/kohne_mekan'}],
-                [{text:'2) Aysu & Qrup📣', url:'t.me/Alhi_sunnna'}],
-		[{text:'3) Ali & Qrup📣 ', url:'t.me/DejavuTeam'}],   
+                [{text:'1) Əli & Qrup📣', url:'https://t.me/nezrinbot'}],
+                [{text:'2) Aysu & Qrup📣', url:'t.me/nezrinlogo'}],
+		[{text:'3) Ali & Qrup📣 ', url:'t.me/TuralBlogg'}],   
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -503,9 +503,9 @@ bot.action('UK', ctx=>{
     ctx.replyWithMarkdown(`*Kanallar 📺*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Əli & Kanal📺 ', url:'https://t.me/kohne_mekan_kanal'}],
-                [{text:'2) Aysu & kanal📺 ', url:'https://t.me/vsemqruz'}],
-		[{text:'3) Ali & kanal📺  ', url:'https://t.me/DegGixM'}],    
+                [{text:'1) Əli & Kanal📺 ', url:'https://t.me/riyaddblogg'}],
+                [{text:'2) Aysu & kanal📺 ', url:'https://t.me/TuralBlogg'}],
+		[{text:'3) Ali & kanal📺  ', url:'https://t.me/nezrinbot'}],    
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
