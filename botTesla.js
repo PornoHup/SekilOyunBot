@@ -150,7 +150,7 @@ const OyunDurdurHusnuEhedov = (ctx, chatId) => {
 		}
 	}
 	else {
-		ctx.reply("ℹ️Oyun başlamadı,Dəyandı... 🙅🏻\nOyuna başlamaq üçün ➡️  /game ")
+		ctx.reply("ℹ️Oyun başlamadı,Dayandı... 🙅🏻\nOyuna başlamaq üçün ➡️  /game ")
 	}
 }
 const RaundMesajHusnuEhedov = (chatId, round, time) => {
@@ -294,7 +294,7 @@ bot.command("game", (ctx) => {
 		else {
 			dbChatAlHusnuEhedov(chatId)
 		}
-		ctx.replyWithHTML(`<b><a href="tg://user?id=${ctx.from.id}">${ctx.from.first_name}</a> Tərəfindən,\n\nℹ️ K.M Şəkil Oyun Botu başladı.🎉</b>`)
+		ctx.replyWithHTML(`<b><a href="tg://user?id=${ctx.from.id}">${ctx.from.first_name}</a> Tərəfindən,\n\nℹ️ N A Z R Y N Şəkil Oyun Botu başladı.🎉</b>`)
 		OyunHusnuEhedov(ctx, chatId)
 	}
 	else {
@@ -386,8 +386,8 @@ bot.command("global", (ctx) => {
             }
             if (top.length > 0) {
                 ctx.replyWithHTML(Degisken(`
-     <b>🏆Qruplar Üzre En İyi Top-20</b>\n
-${(top).sort((a, b) => b.score - a.score).slice(0, 20).map((member, index) => `${["1⃣✰","2⃣✰","3⃣✰","4⃣✰","5⃣✰","6⃣✰","7⃣✰","8⃣✰","9⃣✰","🔟✰","1⃣1⃣✰","1⃣2⃣✰","1⃣3⃣✰","1⃣4⃣✰","1⃣5⃣✰","1⃣6⃣✰","1⃣7⃣✰","1⃣8⃣✰","1⃣9⃣✰","2⃣0⃣✰"][index] || "🎮"} ${index + 1}) <b><i>${member.firstName} → ${member.score} ${HusnuEhedov(member.score, "Çikolata🍫", "Çikolata🍫", "Çikolata🍫")}</i></b>`).join("\n")}
+     <b>🏆Qruplar Üzrə Ən Yaxşı Top-20</b>\n
+${(top).sort((a, b) => b.score - a.score).slice(0, 20).map((member, index) => `${["1⃣✰","2⃣✰","3⃣✰","4⃣✰","5⃣✰","6⃣✰","7⃣✰","8⃣✰","9⃣✰","🔟✰","1⃣1⃣✰","1⃣2⃣✰","1⃣3⃣✰","1⃣4⃣✰","1⃣5⃣✰","1⃣6⃣✰","1⃣7⃣✰","1⃣8⃣✰","1⃣9⃣✰","2⃣0⃣✰"][index] || "🎮"} ${index + 1}) <b><i>${member.firstName} → ${member.score} ${HusnuEhedov(member.score, "Portağal🍊", "Portağal🍊", "Portağal🍊")}</i></b>`).join("\n")}
                 `))
             }
         }
@@ -437,12 +437,12 @@ bot.start(async (ctx) => {
 
 bot.action('start', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`🤖 Salam Mənim adım [N A Z R Y N Səkil Oyun Botu](http://t.me/NezrinGameRobot), Şəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.\n\n🤖 Ətrafli Məlumat üçün /help əmrinə toxunun.
+    ctx.replyWithMarkdown(`💞 Salam Mənim adım [N A Z R Y N Səkil Oyun Botu](http://t.me/NezrinGameRobot), Şəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.\n\n🤖 Ətrafli Məlumat üçün /help əmrinə toxunun.
         `,{
         reply_markup:{
             inline_keyboard:[
                 [{text:'➕ Botu Qrupa əlavə edin ➕', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 🇦🇿', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 🇦🇿', url:`https://t.me/nezrinbot`}],
+                [{text:'Rəsmi Kanalımız 🇦🇿', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 🇦🇿', url:`https://t.me/sohbetnezrin`}],
 		    [{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', callback_data:'vip'},{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', url:`https://t.me/sohbetnezrin`}]
             ]
         }
