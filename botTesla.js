@@ -429,7 +429,7 @@ bot.start(async (ctx) => {
             inline_keyboard:[
                 [{text:'➕ Botu Qrupa əlavə edin ➕', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
                 [{text:'Rəsmi Kanalımız 🇦🇿', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz🇦🇿🌱', url:`https://t.me/nezrinbot`}],
-		     [{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', callback_data:'vip'},{text:'N A Z R Y N 𝐓Σ𝐒𝐋𝐀 💞', url:`https://t.me/nezrinbot`}]
+		     [{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', callback_data:'vip'},{text:'N A Z R Y N 𝐓Σ𝐒𝐋𝐀 💞', url:`https://t.me/sohbetnezrin`}]
             ]
         }
     })
@@ -443,7 +443,7 @@ bot.action('start', ctx=>{
             inline_keyboard:[
                 [{text:'➕ Botu Qrupa əlavə edin ➕', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
                 [{text:'Rəsmi Kanalımız 🇦🇿', url:`https://t.me/TuralBlogg`},{text:'Rəsmi Qrupumuz 🇦🇿', url:`https://t.me/nezrinbot`}],
-		    [{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', callback_data:'vip'},{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', url:`https://t.me/nezrinbot`}]
+		    [{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', callback_data:'vip'},{text:'N A Z R Y N 𝐅𝐚𝐦𝐢𝐥𝐲', url:`https://t.me/sohbetnezrin`}]
             ]
         }
     })
@@ -468,7 +468,7 @@ bot.action('vip', ctx=>{
 // AZƏRBAYCAN GRUP DÜYMƏLƏRİ
 bot.action('AZ', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`*♕︎Bot Sahibləri♕︎*`,{
+    ctx.replyWithMarkdown(`*N A Z R Y N 𝐒𝐚𝐡𝐢𝐛𝐥ə𝐫𝐢🇦🇿✨ *`,{
         reply_markup:{
             inline_keyboard:[
                 [{text:'1) 𝐓𝐮𝐫𝐚𝐥 ', url:'t.me/hmnevar'}],
@@ -488,7 +488,7 @@ bot.action('TR', ctx=>{
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) 𝐓𝐮𝐫𝐚𝐥 & Qrup🇬🇪', url:'https://t.me/nezrinbot'}],  
+                [{text:'1) 𝐓𝐮𝐫𝐚𝐥 & Qrup🇬🇪', url:'https://t.me/sohbetnezrin'}],  
                 [{text:'2) Ｒｉｙａｄ & Qrup🇬🇪', url:'t.me/nezrinlogo'}],
 		[{text:'3) 𝐓𝐮𝐫𝐚𝐥 & Blogg📣 ', url:'t.me/TuralBlogg'}],   
                 [{text:'🔙 Geri', callback_data:'vip'}]
@@ -505,7 +505,7 @@ bot.action('UK', ctx=>{
             inline_keyboard:[
                 [{text:'1) Ｒｉｙａｄ & Kanal🇬🇪 ', url:'https://t.me/riyaddblogg'}],
                 [{text:'2) 𝐓𝐮𝐫𝐚𝐥 & kanal🇦🇿 ', url:'https://t.me/TuralBlogg'}],
-		[{text:'3) 𝐓𝐮𝐫𝐚𝐥 & 𝐅𝐚𝐦𝐢𝐥𝐲🇦🇿  ', url:'https://t.me/nezrinbot'}],    
+		[{text:'3) 𝐓𝐮𝐫𝐚𝐥 & 𝐅𝐚𝐦𝐢𝐥𝐲🇦🇿  ', url:'https://t.me/sohbetnezrin'}],    
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
